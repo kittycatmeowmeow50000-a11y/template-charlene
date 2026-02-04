@@ -58,9 +58,3 @@ $(document).ready(function () {
 document.addEventListener("DOMContentLoaded", function() {
   const cards = document.querySelectorAll(".discover-card");
   
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      alert("Redirecting to full article...");
-    });
-  });
-});
